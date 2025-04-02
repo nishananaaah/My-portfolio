@@ -19,6 +19,7 @@ import {
 import { SiNextdotjs } from "react-icons/si";
 import { motion } from "framer-motion";
 import ShinyEffect from "./ShiningEffect";
+import profilePic from "../assets/profilePic.png"
 
 
 const Hero = () => {
@@ -98,7 +99,7 @@ const Hero = () => {
 
 
             <motion.img 
-                src="https://images.pexels.com/photos/1391499/pexels-photo-1391499.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                src={profilePic}
                 className="w-[300px] md:w-[450px]"
                 initial={{ opacity: 0, scale: 0.8 }}
                 whileInView={{ opacity: 1, scale: 1 }}
