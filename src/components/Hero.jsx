@@ -19,7 +19,7 @@ import {
 import { SiNextdotjs } from "react-icons/si";
 import { motion } from "framer-motion";
 import ShinyEffect from "./ShiningEffect";
-import profilePic from "../assets/profilePic.png"
+import profilePic from "../assets/Me.jpg"
 
 
 const Hero = () => {
